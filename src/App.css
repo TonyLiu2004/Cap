@@ -20,6 +20,7 @@ li.form {
   border-radius: 8px;
   background-color: #cadcf2;
   width: 300px;
+  color:black ;
 }
 
 input {
@@ -60,7 +61,7 @@ input {
 }
 
 .button:hover {
-  background-color: #1a1a1a;
+  background-color: #2f2f2f;
 }
 
 .button:active {
@@ -76,6 +77,7 @@ input {
   margin-right: 5%;
   border-radius: 8px;
   background-color: #cadcf2;
+  color:black;
 }
 
 .screenshot {

@@ -15,13 +15,14 @@ const APIForm = ({inputs, handleChange, onSubmit}) => {
             Object.entries(inputs).map(([category, value], index) => (
             <li className="form" key={index}>
                 <h2>{category} </h2>
-                <input
+                <input 
                 type="text"
                 name={category}
                 value={value}
                 placeholder="Input this attribute..."
                 onChange={handleChange}
                 className="textbox"
+                style={{backgroundColor:"black"}}
                 />
                 <br></br>
                 <br></br>
